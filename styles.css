@@ -1,0 +1,19 @@
+body{margin:0;font-family:Arial,sans-serif;background:#0e0f12;color:#fff}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+.site-header{background:#111;padding:10px 0;position:sticky;top:0;z-index:10}
+.nav{display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
+.brand-logo{height:40px}
+.brand-text{font-weight:bold}
+.main-nav ul{list-style:none;display:flex;gap:15px;margin:0;padding:0}
+.main-nav a{color:#fff;text-decoration:none}
+.hero{padding:60px 20px;text-align:center;background:#15171c}
+.hero-logo{max-width:200px;margin-bottom:20px}
+.section{padding:40px 20px}
+.section.alt{background:#15171c}
+.site-footer{background:#111;padding:20px;text-align:center}
+.foot-nav a{color:#aaa;margin-left:10px;text-decoration:none}
+.foot-nav a:hover{color:#fff}
+/* WhatsApp Floating Icon */
+.whatsapp-float{position:fixed;width:60px;height:60px;bottom:20px;right:20px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,.3);z-index:99}
+.whatsapp-float img{width:35px;height:35px}
